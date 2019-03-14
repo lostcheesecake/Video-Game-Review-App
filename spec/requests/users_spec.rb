@@ -76,7 +76,7 @@ RSpec.describe 'Authentication API' do
       end
 
       it 'changes password' do
-        patch "/change-password/",
+        patch '/change-password/',
               params: { passwords: new_password_params },
               headers: headers
 
@@ -87,15 +87,15 @@ RSpec.describe 'Authentication API' do
 
     describe 'DELETE /sign-out/' do
       it 'is successful' do
-        delete "/sign-out/", headers: headers
+        delete '/sign-out/', headers: headers
 
         expect(response).to be_success
         expect(response.body).to be_empty
       end
 
       it 'expires the token' do
-        delete "/sign-out/", headers: headers
-        delete "/sign-out/", headers: headers
+        delete '/sign-out/', headers: headers
+        delete '/sign-out/', headers: headers
 
         expect(response).not_to be_success
       end

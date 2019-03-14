@@ -1,3 +1,0 @@
-# Rails API
-
-## Great APP
