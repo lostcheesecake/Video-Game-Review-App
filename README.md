@@ -1,6 +1,6 @@
 #Video Game App
 
-# Front End
+# BACK END
 # Full Stack Project Practice
 
 
@@ -31,6 +31,16 @@ google machine if you need further assistance.
 - User will be able to see other game reviews
 - User will be able to delete review they added
 ```
+
+## Technologies
+
+- bootstrap
+- html
+- scss
+- css
+- javascript
+- rails
+- ruby
 
 ## Plan your tables and columns
 
