@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class ConsolesController < OpenReadController
-  before_action :set_console, only: [:show, :update, :destroy]
+  before_action :set_console, only: %i[show update destroy]
 
   # GET /consoles
   def index
