@@ -1,6 +1,6 @@
 #!/bin/bash
 
-curl "http://localhost:4741/sign-in" \
+curl "https://video-game-review-app.herokuapp.com/" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
