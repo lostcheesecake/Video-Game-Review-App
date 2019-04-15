@@ -7,7 +7,7 @@ curl "http://localhost:4741/reviews/${ID}" \
     --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "review": {
-      "video_game": "'"${VIDEO_GAME}"'", }
+      "video_game": "'"${VIDEO_GAME}"'" }
   }'
 
 echo

@@ -7,7 +7,7 @@ curl "http://localhost:4741/consoles/${ID}" \
     --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "console": {
-      "console": "'"${CONSOLE}"'", }
+      "system": "'"${SYSTEM}"'" }
   }'
 
 echo
